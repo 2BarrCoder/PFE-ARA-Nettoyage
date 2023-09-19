@@ -1,0 +1,131 @@
+
+.container-fluid:nth-child(2) .row .col-sm-9 .row .col-sm-4 .row:nth-child(1) .col-sm-12 a img {
+    width: 100%;
+    height: 275px !important;
+}
+
+.post_category {
+    font-size: 13px;
+    color: #c4a699;
+    margin-right: 9px;
+}
+
+.time_count,
+.post_meta {
+    font-size: 13px;
+    color: #c4a699;
+}
+
+/* Styles pour les icônes de pagination */
+.circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.circle:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Styles pour les icônes de flèche */
+.fa-chevron-right {
+    margin-right: 5px;
+}
+
+
+#categories h3:before,
+#recent-posts h3:before {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    margin-right: 25px;
+    position: relative;
+    vertical-align: middle;
+    width: 17%;
+}
+
+#categories h3.title:after,
+#recent-posts h3.title:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+#categories ul li::before {
+    content: "\2022";
+    color: #6382F7;
+    display: inline-block;
+    width: 1em;
+    font-size: 25px;
+}
+
+#categories h3,
+#recent-posts h3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    max-height: 48px;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a.cat-item {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+a.cat-item:hover {
+    color: #6382F7;
+}
+
+h4 a:hover {
+    color: #6382F7;
+}
+
+#categories,
+#recent-posts {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.container-fluid:nth-child(2) .list-inline-item:nth-child(1) a {
+    background-color: #6382f7 !important;
+    border-radius: 50%;
+}
+
+#recent-posts h4 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+#recent-posts img {
+    border-radius: 5px;
+}
+
+.cat-item {
+    position: relative;
+}
+
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #000;
+}
+
+
+
